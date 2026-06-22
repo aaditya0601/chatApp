@@ -29,8 +29,8 @@ const Navbar = () => {
               
               `}
             >
-              <Settings className="w-4 h-4" />
-              <span className="hidden sm:inline">Settings</span>
+              {/* <Settings className="w-4 h-4" />
+              <span className="hidden sm:inline">Settings</span> */}
             </Link>
 
             {authUser && (
